@@ -1,0 +1,21 @@
+.my-editor {
+  padding: 10px;
+  min-height: 200px;
+  background-color: #181c1f;
+  color: white;
+}
+
+.my-toolbar {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  background-color: #181c1f;
+}
+
+.RichTextEditor__root___2QXK- {
+  background-color: #181c1f !important;
+  border: 1px solid #181c1f !important;
+}
+
+.Button__root___1gz0c {
+  background: grey !important;
+}

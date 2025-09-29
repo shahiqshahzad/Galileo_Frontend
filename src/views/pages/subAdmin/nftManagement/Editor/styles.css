@@ -1,0 +1,49 @@
+.custom-toolbar {
+  background-color: #15191b !important;
+  border: none !important;
+  padding: 5px !important;
+  padding-top: 10px !important;
+}
+
+.custom-toolbar .rdw-option-wrapper {
+  border: 1px solid #999 !important;
+  background-color: grey !important;
+  min-width: 17px !important;
+  height: 10px !important;
+}
+
+.custom-toolbar .rdw-dropdown-wrapper {
+  border: 1px solid #999 !important;
+  background-color: black !important;
+  height: 22px !important;
+}
+
+.rdw-dropdown-optionwrapper {
+  overflow-y: auto !important;
+  background-color: black !important;
+}
+
+.rdw-block-dropdown {
+  width: 75px !important;
+}
+
+.rdw-dropdownoption-active {
+  color: white !important;
+  background-color: #2f57ff !important;
+}
+
+.rdw-dropdownoption-highlighted {
+  color: white !important;
+  background-color: #2f57ff !important;
+}
+
+.rdw-dropdown-carettoopen {
+  display: none !important;
+}
+
+.rdw-dropdown-carettoclose {
+  display: none !important;
+}
+.rdw-dropdown-selectedtext {
+  font-size: 12px !important;
+}

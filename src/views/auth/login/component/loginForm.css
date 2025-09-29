@@ -1,0 +1,30 @@
+.my-facebook-button-class {
+  background: #2f53ff;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  padding: 10px 13px 4px 13px;
+  border-radius: 4px;
+}
+@media only screen and (min-width: 320px) and (max-width: 1440px) {
+  .my-facebook-button-class {
+    padding: 7px 13px 4px 13px;
+  }
+}
+.facebook {
+  font-size: 38px !important;
+  color: #2f53ff;
+  border-radius: 4px;
+  color: #fff;
+}
+.google {
+  width: 100% !important;
+  color: white;
+  background-color: transparent;
+
+  text-align: center;
+
+  cursor: pointer;
+}

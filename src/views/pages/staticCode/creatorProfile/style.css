@@ -1,0 +1,97 @@
+.addressCard {
+  width: 23%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1700px) {
+  .addressCard {
+    width: 24%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .addressCard {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .addressCard {
+    width: 32%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .addressCard {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .addressCard {
+    width: 45%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .addressCard {
+    width: 47%;
+  }
+}
+
+.userCard {
+  width: 30%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  margin-right: 40px;
+}
+
+.user-info-bg {
+  height: 270px;
+}
+
+@media (max-width: 1400px) {
+  .userCard {
+    width: 45%;
+  }
+  .user-info-bg {
+    height: 350px;
+  }
+}
+
+@media (max-width: 1470px) {
+  .userCard {
+    margin-right: 25px;
+  }
+}
+
+.dropdown-suggestion {
+  position: relative;
+  background: #181c1f;
+}
+
+.suggestion-list {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 100%;
+  overflow-y: auto;
+  background-color: inherit;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 999;
+}
+
+.suggestion-list li {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.suggestion-list li:hover {
+  color: #f0f0f0;
+}

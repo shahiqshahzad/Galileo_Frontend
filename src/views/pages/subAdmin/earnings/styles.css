@@ -1,0 +1,9 @@
+.earningText {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .earningText {
+    margin-top: 5px;
+  }
+}

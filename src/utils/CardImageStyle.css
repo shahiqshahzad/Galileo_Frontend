@@ -1,0 +1,91 @@
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  width: 14vw;
+  height: 14vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+  transition: transform 0.3s ease;
+}
+
+.brand-container {
+  width: 14vw;
+  height: 14vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+  transition: transform 0.3s ease;
+}
+.container:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1535px) {
+  .container {
+    width: 14.2vw;
+    height: 14.2vw;
+  }
+  .brand-container {
+    width: 13.2vw;
+    height: 13.2vw;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 16.5vw;
+    height: 16.5vw;
+  }
+  .brand-container {
+    width: 19vw;
+    height: 19vw;
+  }
+}
+
+.my-items-container {
+  width: 14.7vw;
+  height: 14.7vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+  transition: transform 0.3s ease;
+}
+.my-items-container:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1535px) {
+  .my-items-container {
+    width: 15.2vw;
+    height: 15.2vw;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .my-items-container {
+    width: 17.5vw;
+    height: 17.5vw;
+  }
+}
+
+.add-nft-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+}

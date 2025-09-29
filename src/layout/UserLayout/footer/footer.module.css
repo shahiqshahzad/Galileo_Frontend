@@ -1,0 +1,49 @@
+.link {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.socialLink {
+  margin-left: 5%;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.serviceLink {
+  margin-top: 5%;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.aboutLink {
+  margin-top: 1em;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contactLink {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 2%;
+}
+.footerElement {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+}
+@media (max-width: 890px) {
+  .contact {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}

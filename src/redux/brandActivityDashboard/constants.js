@@ -1,0 +1,10 @@
+export const GET_ALL_BRAND_ACTIVITY = "get_all_brand_activity";
+export const GET_ALL_BRAND_ACTIVITY_SUCCESS = "get_all_brand_activity_success";
+export const GET_BRAND_ACTIVITY_DETAIL = "get_brand_activity_detail";
+export const GET_BRAND_ACTIVITY_DETAIL_SUCCESS = "get_brand_activity_detail_success";
+export const UPDATE_BRAND_ACTIVITY_STATUS = "update_brand_activity_status";
+export const GET_BRAND_ACTIVITY_STATUS = "get_brand_activity_status";
+export const GET_BRAND_ACTIVITY_STATUS_SUCCESS = "get_brand_activity_status_success";
+export const UPDATE_DETAIL_AND_LINK_ACTIVITY = "update_detail_and_link_activity";
+export const ACTIVITY_STATUS_LOADER = "activity_status_loader";
+export const ACTIVITY_STATUS_LOADER_SUCCESS = "activity_status_loader_success";

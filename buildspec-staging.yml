@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20.11.1
+  pre_build:
+    commands:
+      - npm ci --legacy-peer-deps
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - aws s3 cp --cache-control="max-age=0, no-cache, no-store, must-revalidate" ./build/index.html s3://uat.galileoprotocol.io/
+      - aws s3 rm s3://uat.galileoprotocol.io/ --recursive
+      - aws cloudfront create-invalidation --distribution-id E3VS4IHR4M8H5B --paths "/*"
+artifacts:
+  files:
+    - "**/*"
+  base-directory: 'build'

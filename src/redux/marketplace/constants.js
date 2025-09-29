@@ -1,0 +1,46 @@
+export const GET_ALL_MARKETPLACE_CATEGORIES = "get_all_marketplace_categories";
+export const GET_ALL_MARKETPLACE_CATEGORIES_SUCCESS = "get_all_marketplace_categories_success";
+export const GET_ALL_MARKETPLACE_NFTS_BY_CATEGORY = "get_all_marketplace_nfts_by_categories";
+export const GET_ALL_MARKETPLACE_NFTS_BY_CATEGORY_SUCCESS = "get_all_marketplace_nfts_by_categories_success";
+export const GET_ALL_MARKETPLACE_SEARCH = "get_all_marketplace_search";
+export const GET_ALL_MARKETPLACE_SEARCH_SUCCESS = "get_all_marketplace_search_success";
+export const GET_ALL_SIMILAR_PRODUCTS = "get_all_similar_products";
+export const GET_ALL_SIMILAR_PRODUCTS_SUCCESS = "get_all_similar_products_success";
+export const TRACKING_TOOL = "TRACKING_TOOL";
+export const TRACKING_TOOL_SUCCESS = "TRACKING_TOOL_SUCCESS";
+export const GET_NOTIFICATION = "get_notification";
+export const GET_NOTIFICATION_FIRST_TIME = "get_notification_first_time";
+export const GET_SEPARATE_NOTIFICATION = "get_separate_notification";
+export const GET_SEPARATE_NOTIFICATION_SUCCESS = "get_separate_notification_success";
+export const GET_SEPARATE_NOTIFICATION_HIGH_SUCCESS = "get_separate_notification_high_success";
+export const GET_SEPARATE_NOTIFICATION_LOW_SUCCESS = "get_separate_notification_low_success";
+export const GET_SEPARATE_NOTIFICATION_MEDIUM_SUCCESS = "get_separate_notification_medium_success";
+export const CLEAR_NOTIFICATIONS_DATA = "clear_notifications_data";
+export const CLEAR_SEPARATE_NOTIFICATION = "clear_separate_notification";
+export const GET_ALL_NOTIFICATION_COUNT = "get_all_notification_count";
+export const GET_NOTIFICATION_SUCCESS = "get_notification_success";
+export const DELETE_NOTIFICATION = "delete_notification";
+export const CHANGE_NOTIFICATION_STATUS = "change_notification_status";
+export const CHANGE_NOTIFICATION_ALL_STATUS = "change_notification_all_status";
+export const UPDATE_ALL_MARKETPLACE_CATEGORIES = "update_all_marketplace_categories";
+
+export const GET_ALL_CART_ITEMS = "get_all_cart_items";
+export const GET_ALL_CART_ITEMS_SUCCESS = "get_all_cart_items_success";
+export const DELETE_CART_ITEM = "delete_cart_item";
+export const ADD_TO_CART = "add_to_cart";
+
+export const GET_ALL_WISHLIST_ITEMS = "get_all_wishlist_items";
+export const GET_ALL_WISHLIST_ITEMS_SUCCESS = "get_all_wishlist_items_success";
+export const DELETE_WISHLIST_ITEM = "delete_wishlist_item";
+export const ADD_TO_WISHLIST = "add_to_wishlist";
+export const MOVE_TO_CART = "move_to_cart";
+export const MOVE_TO_WISHLIST = "move_to_wishlist";
+export const UPDATE_CART_ITEM = "update_cart_item";
+export const NOTIFICATION_COUNT = "notification_count";
+
+export const GET_SEARCH = "get_search";
+export const GET_SEARCH_SUCCESS = "get_search_success";
+export const GET_RECENT_SEARCH = "get_recent_search";
+export const GET_RECENT_SEARCH_SUCCESS = "get_recent_search_success";
+export const ADD_RECENT_NFT = "add_recent_nft";
+export const DELETE_RECENT_SEARCH_NFT = "delete_recent_search_nft";
